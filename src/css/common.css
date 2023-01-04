@@ -17,20 +17,19 @@ img {
   max-width: 100%;
 }
 
-/* Task #1 */
+/* Задание №1 и №2 ( кнопки ) */
 [data-start],
 [data-stop] {
-  width: 145px;
-  height: 40px;
+  width: 200px;
+  height: 80px;
 
-  font-size: 18px;
-  letter-spacing: 0.04em;
+  font-size: 28px;
   text-align: center;
-  color: #3b3b3b;
+  color:rgb(120, 120, 120);
 
-  background-color: rgba(128, 203, 196, 0.6);
-  border-radius: 5px;
-  border: 1px solid #3b3b3b;
+  background-color: #f7d6cd;
+  border-radius: 22px;
+  border: 1px solid rgb(120, 120, 120);
 
   cursor: pointer;
 
@@ -39,75 +38,74 @@ img {
 
 [data-start]:hover,
 [data-stop]:hover {
-  background-color: rgba(128, 203, 196, 1);
+  background-color: #f77d5c;
 }
 
 [data-start]:focus,
 [data-stop]:focus {
-  outline: 3px solid rgba(128, 203, 196, 1);
-  border: 3px solid #fff;
-  background-color: rgba(128, 203, 196, 1);
+  border: 3px solid rgb(60, 60, 60);
+  background-color: #f77d5c;
 }
 
 [data-start]:disabled,
 [data-stop]:disabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgb(60, 60, 60);
   opacity: 0.8;
   background-color: rgba(59, 59, 59, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.3);
   cursor: not-allowed;
 }
 
-/* Tast #2 */
 #datetime-picker {
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-right: 40px;
 
-  width: 330px;
-  height: 40px;
+  width: 380px;
+  height: 60px;
 
-  font-size: 18px;
-  letter-spacing: 0.04em;
+  font-size: 26px;
   text-align: center;
-  color: #3b3b3b;
+  color: rgb(60, 60, 60);
 
-  background-color: rgba(128, 203, 196, 0.6);
-  border-radius: 5px;
-  border: none;
+  background-color: #f7d6cd;
+  border-radius: 22px;
+  border: 1px solid rgb(120, 120, 120);
 
   transition: 250ms;
 }
 
 #datetime-picker:focus {
-  outline: 3px solid rgba(128, 203, 196, 1);
-  border: 3px solid #fff;
-  background-color: rgba(128, 203, 196, 1);
+  border: 1px solid #fff;
+  background-color: #f77d5c;
 }
 
 .timer {
-  padding: 20px 30px;
-  width: 600px;
+  padding: 25px 25px;
+  width: 625px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
 
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 0.04em;
-  color: #3b3b3b;
+  color: rgb(60, 60, 60);
 
-  background-color: rgba(128, 203, 196, 0.6);
+  border: 1px solid rgb(120, 120, 120);
+  border-radius: 22px;
 
-  border-radius: 5px;
+  background-color: #f7d6cd;
+
+  
 }
 
 .value {
   position: relative;
-  padding: 3px;
-  background-color: rgba(128, 203, 196, 0.6);
-  border-radius: 5px;
-  font-size: 24px;
+  padding: 5px;
+  background-color: #f77d5c;
+  border-radius: 8px;
+  font-size: 34px;
 }
 
 /* Task #3 */
@@ -128,13 +126,13 @@ img {
   width: 350px;
   height: 40px;
 
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #3b3b3b;
+  color: rgb(60, 60, 60);
 
-  background-color: rgba(128, 203, 196, 0.6);
-  border-radius: 5px;
+  background-color: #f7d6cd;
+  border-radius: 8px;
   border: none;
 
   transition: 250ms;
@@ -148,7 +146,7 @@ img {
   font-size: 18px;
   letter-spacing: 0.04em;
   text-align: right;
-  color: #3b3b3b;
+  color: rgba(255, 255, 255, 0.6);
 
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
@@ -163,7 +161,7 @@ img {
 
 .form input:focus {
   outline: 3px solid rgba(255, 255, 255, 1);
-  border: 4px solid rgba(128, 203, 196, 0.6);
+  border: 4px solid #f77d5c;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -176,7 +174,7 @@ img {
   text-align: center;
   color: #3b3b3b;
 
-  background-color: rgba(128, 203, 196, 0.6);
+  background-color: #f77d5c;
   border-radius: 5px;
   border: 1px solid #3b3b3b;
 
@@ -186,11 +184,11 @@ img {
 }
 
 .form button:hover {
-  background-color: rgba(128, 203, 196, 1);
+  background-color: #f77d5c;
 }
 
 .form button:focus {
-  outline: 3px solid rgba(128, 203, 196, 1);
+  outline: 3px solid #f77d5c;
   border: 3px solid #fff;
   background-color: rgba(128, 203, 196, 1);
 }
